@@ -1,0 +1,527 @@
+
+/*
+Theme Name: Web-Style-Production-24
+Theme URI:
+Description: тестовое задание
+Author: Зайцев Евгений
+Author URI:
+Template:
+Version: 1.0
+
+*/
+
+@font-face {
+	font-family: 'FontAwesome';
+	src: local('FontAwesome'),
+		url('/fonts/font-awesome/fontawesome-webfont.eot'),
+		url('/fonts/font-awesome/fontawesome-webfont.eot?#iefix') format('embedded-opentype'), 
+		url('/fonts/font-awesome/fontawesome-webfont.woff2') format('woff2'), 
+		url('/fonts/font-awesome/fontawesome-webfont.woff') format('woff'), 
+		url('/fonts/font-awesome/fontawesome-webfont.ttf') format('truetype'), 
+		url('/fonts/font-awesome/fontawesome-webfont.svg#fontawesomeregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+body{
+	background: #FFFFFF;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 19px;
+	overflow-x:hidden;
+}
+
+/*HEADER*/
+
+/*
+=====================
+Меню
+=====================
+*/
+/*Меню главное*/
+.navbar{
+	padding-top: 30px;
+}
+
+.nav-item.active{
+	border-top: 3px solid #F4CE77;
+	margin-top: -3px;
+}
+
+.navbar-nav > li > a:hover{
+	border-top: 3px solid #F4CE77;
+	border-radius: 1px;
+	color: #4C4C4C;
+	margin-top: -3px;
+}
+
+/*Меню волонтёра*/
+.menu{
+	padding-top: 20px;
+}
+
+.nav{
+	padding-top: 8px;
+}
+
+.link{
+	color: #4C4C4C;
+	padding: 0 10px;
+	padding-top: 9px;
+	text-transform: uppercase;
+}
+
+.nav > a:hover{
+	color: red;
+}
+
+.image img{
+	margin-top: -6px;
+}
+
+
+/*
+=====================
+CONTENT
+=====================
+
+*/
+
+#citata{
+	font-family: Cormorant Garamond;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 43.0588px;
+	line-height: 52px;
+}
+
+#podpis{
+	text-align: end;
+}
+
+#border-r{
+	text-align: right;
+	margin: 0;
+}
+
+#border-l{
+	text-align: left;
+	margin: 0;
+}
+
+#border-l-c{
+	text-align: left;
+	margin-top: 35px;
+}
+
+#border-l-n{
+	text-align: left;
+	margin: 0;
+}
+
+#border-r-n{
+	text-align: right;
+	margin-top: -23px;
+}
+
+#border-r-f{
+	text-align: right;
+}
+
+span{
+	font-family: Cormorant Garamond;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 43.0588px;
+	line-height: 52px;
+	color: #F4CE77;
+}
+
+.block1{
+	padding-top: 60px;
+}
+
+#afonsky{
+	float: right;
+	padding-right: 10%;
+}
+
+.pomosh{
+	padding-top: 30px;
+}
+
+#zagolovok{
+	font-weight: 200;
+	font-size: 29.8909px;
+	line-height: 130px;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.row{
+	margin-bottom: -17px;
+}
+
+.photo img{
+	padding-bottom: 15px;
+}
+
+.help img{
+	width: 100%;
+}
+
+#deti{
+	font-family: Cormorant Garamond;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24.9412px;
+	color: #2B2B2B;
+}
+
+#disease{
+	margin-bottom: -8px;
+}
+
+.about > a{
+	font-weight: 300;
+	font-size: 10.125px;
+	line-height: 16px;
+	text-align: right;
+	color: #4C4C4C;
+}
+
+.about > a:hover{
+	border-bottom: 2px solid #F4CE77;
+
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+#sobrano{
+	font-size: 14.3571px;
+	line-height: 23px;
+	color: #F4CE77;
+
+}
+
+#ostalos{
+	font-size: 14.3571px;
+	line-height: 23px;
+	color: #E20613;;
+}
+
+.complete{
+	background: #F4CE77;
+	border-radius: 2px;
+	margin: 15px
+}
+
+.compl{
+	border: 1px solid #979797;
+	box-sizing: border-box;
+	border-radius: 2px;
+}
+
+.progress{
+	height: 5px;
+	margin-bottom: 38px;
+}
+
+.bg-warning {
+    background-color: #F4CE77 !important;
+}
+
+.media{
+	background: #F4CE77;
+	border-radius: 2px;
+}
+
+.media img{
+	width: 18%;
+	padding-top: 4px;
+    padding-right: 10px;
+    margin-bottom: 5px;
+}
+
+.media-body p{
+	margin-bottom: -3px;
+    padding-left: 7px;
+}
+
+.else{
+	padding-top: 50px;
+}
+
+.else li{
+	float: right;
+    font-size: 14px;
+    line-height: 0.8;
+    list-style: outside none none;
+    margin-left: 20px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.all{
+	font-size: 10.125px;
+	line-height: 16px;
+	text-align: right;
+	text-transform: uppercase;
+	color: #4C4C4C;
+	border-bottom: 2px solid #F4CE77;
+	border-radius: 1px;
+}
+
+h3{
+	font-weight: 200;
+	font-size: 29.8909px;
+	line-height: 130px;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.novosti{
+	font-size: 12px;
+	line-height: 19px;
+	color: #4C4C4C;
+	padding-bottom: 17px;
+}
+
+h4{
+	font-family: Cormorant Garamond;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17.2258px;
+	color: #4C4C4C;
+}
+
+#data{
+	font-size: 43.1511px;
+	color: #4C4C4C;
+	margin-bottom: 8px;
+}
+.data{
+	max-width: 56px;
+	padding-top: 16px;
+	padding-left: 5px;
+    border-style: solid;
+	border-image-width: 60px;
+	border-image-source: url(../img/Ramka.png);
+	border-image-slice: 30;
+	border-image-repeat: round;
+}
+#mesyac{
+	margin-bottom: 8px;
+}
+/*
+=====================
+FOOTER
+=====================
+
+*/
+footer{
+	background: #F2F2F2;
+}
+
+.footer{
+	padding-top: 35px;
+}
+
+.footer img{
+	padding-top: 25px;
+	width: 80%;
+}
+
+#tel{
+	font-size: 29px;
+	line-height: 39px;
+	text-align: right;
+	color: #4C4C4C;
+}
+
+.mesto{
+	padding-top: 18px;
+}
+
+.mesto p{
+	text-align: right;
+}
+.mesto img{
+	width: 35px;
+    padding-top: 0;
+    padding-right: 16px;
+}
+
+.politica{
+	padding-top: 20px;
+}
+
+.politica p{
+	font-size: 10.125px;
+	line-height: 6px;
+}
+
+.politica a{
+	color: #4C4C4C;
+}
+
+.social li{
+	display: inline;
+	padding: 8px;
+}
+
+.nav .nav-link{
+	color: #4C4C4C;
+}
+
+.nav .nav-link.active{
+	border-top: 3px solid #F4CE77;
+	margin-top: -3px;
+}
+
+.nav-link > a:hover{
+	border-top: 3px solid #F4CE77;
+}
+
+
+/* Большие девайсы (большие десктопы, < 1200px) */
+@media only screen and (max-width: 1200px){
+
+}
+
+/* Средние девайсы («таблетки», < 992px) */
+@media only screen and (max-width: 992px){
+
+.navbar-expand-lg .navbar-toggler {
+    display: none;
+}
+
+.navbar-nav{
+	padding: 0.5rem 0rem;
+}
+#afonsky{
+	float: right;
+	padding-right: 10%;
+}
+.compl {
+    border: none;
+}
+
+.mobile{
+	display: none;
+}
+
+#zagolovok {
+	text-align:  center;
+	margin-bottom: -30px;
+}
+
+#novfond{
+}
+
+#tel{
+	font-size: 20px;
+}
+
+.nav {
+    padding-top: 0px;
+	margin-top: -10px;
+}
+
+.logo img{
+	margin: 0 20%;
+}
+}
+
+/* Малые девайсы («ландшафтные», < 768px) */
+@media only screen and (max-width: 767px){
+
+.navbar-nav{
+	padding: 0.5rem 1rem;
+}
+
+.nav {
+    padding-top: 8px;
+	margin-top: 0;
+}
+
+.nav-item.active{
+	border: none;
+	background: #F2F2F2;
+	margin-top: -3px;
+}
+
+.navbar-nav > li > a:hover{
+	border: none;
+	background: #F2F2F2;
+	color: #4C4C4C;
+	margin-top: -3px;
+}
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 45%;
+}
+
+#afonsky {
+    float: right;
+    padding-right: 0%;
+}
+
+.dos {
+    padding-right: 10%;
+    padding-left: 10.5%;
+}
+
+#tel{
+	font-size: 15px;
+}
+
+}
+
+/* Экстрамалые девайсы («телефоны», < 576px) */
+@media only screen and (max-width: 575px){
+.dos {
+
+}
+
+.politica{
+	text-align:  center;
+}
+
+.social{
+	text-align:  center !important;
+}
+#border-r-f{
+	text-align: center;
+}
+
+.mesto p{
+	text-align: center;
+}
+
+#tel{
+	text-align: center;
+}
+
+.justify-content-end{
+	justify-content: center !important;
+}
+
+ .nav {
+    padding-top: 8px;
+}
+
+.logo img {
+    margin: 0 13%;
+	padding-bottom: 20px;
+}	
+
+.novosti {
+    padding-right: 15px;
+}
+}
